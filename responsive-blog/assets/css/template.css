@@ -3,6 +3,80 @@
 
 */
 
+  
+  .wrapper {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background: #FFF;
+    border: 1px #000 solid;
+    margin: 20px auto;
+    padding: 15px;
+    position: relative;
+    width: 600px;
+    height: 600px;
+  }
+  
+  #container {
+    width: 580px;
+    height: 580px;
+    padding: 5px;
+    margin-top: 5px;
+    overflow: auto;
+    position: relative;
+  }
+  
+  .ssb_down {
+    background-color: #33ccaa;
+    bottom:0;
+    cursor:pointer;
+    position:absolute;
+    right:0;
+    border-radius: 10px;
+  }
+  
+  .ssb_sb {
+    background-color: #22aabb;
+    cursor:pointer;
+    position:absolute;
+    right:0;
+    border-radius: 10px;
+  }
+  
+  .ssb_sb_down {
+    background-color: #1199aa;
+  }
+  
+  .ssb_sb_over {
+    background-color: #33bbcc;
+  }
+  
+  .ssb_st {
+    background-color: #dedede;
+    cursor:pointer;
+    height:100%;
+    position:absolute;
+    right:0;
+    top:0;
+    border-radius: 10px;
+  }
+  
+  .ssb_up {
+    background-color: #33ccaa;
+    cursor:pointer;
+    position:absolute;
+    right:0;
+    top:0;
+    border-radius: 10px;
+  }
+  
+  .parent {
+    font-family:verdana;
+    height:100%;
+    padding:10px;
+    position:relative;
+  }
+  
+
 body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
@@ -107,10 +181,10 @@ header .navbar {
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
-	color: #121212!important;
+	color: #ffffff!important;
 }
 .background-header .navbar-nav a.nav-link {
-	color: #1e1e1e!important;
+	color: #ffffff!important;
 }
 
 .background-header .navbar-nav .nav-link:hover,
@@ -126,7 +200,7 @@ header .navbar {
 	outline: none;
 }
 .navbar .navbar-brand h2 {
-	color: #1e1e1e;
+	color: #fffcfc;
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 900;
@@ -156,7 +230,7 @@ header .navbar {
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
-	color: #1e1e1e;
+	color: #ffffff;
 	transition: all 0.3s;
 }
 
